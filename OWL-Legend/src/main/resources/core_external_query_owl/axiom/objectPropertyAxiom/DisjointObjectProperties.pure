@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents OWL Disjoint Object Properties Axiom, stating that multiple object property expressions are pairwise disjoint.'} open::legend::owl::axiom::objectPropertyAxiom::DisjointObjectProperties extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  objectPropertyExpressions: open::legend::owl::objectProperty::ObjectPropertyExpression[2..*];
+}

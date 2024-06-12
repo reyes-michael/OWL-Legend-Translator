@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Disjoint Data Properties Axiom, stating that the extensions of several data property expressions are disjoint with each other.'} open::legend::owl::axiom::dataPropertyAxiom::DisjointDataProperties extends open::legend::owl::axiom::dataPropertyAxiom::DataPropertyAxiom
+{
+  dataPropertyExpressions: open::legend::owl::dataProperty::DataPropertyExpression[2..*];
+}

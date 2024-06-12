@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the DataHasValue class expression in OWL, which contains individuals that are connected by a data property expression to a particular literal.'} open::legend::owl::classExpression::DataHasValue extends open::legend::owl::classExpression::ClassExpression
+{
+  dataPropertyExpression: open::legend::owl::dataProperty::DataPropertyExpression[1];
+  literal: open::legend::owl::Literal[1];
+}

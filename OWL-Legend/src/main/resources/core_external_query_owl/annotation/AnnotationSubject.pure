@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Annotation Subject, which can be an IRI or an anonymous individual.'} open::legend::owl::annotation::AnnotationSubject
+{
+  iri: open::legend::owl::IRI[0..1];
+  anonymousIndividual: open::legend::owl::AnonymousIndividual[0..1];
+}

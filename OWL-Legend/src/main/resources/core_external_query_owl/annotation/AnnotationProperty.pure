@@ -1,0 +1,3 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Annotation Property, a kind of property used to add annotations to ontology elements.'} open::legend::owl::annotation::AnnotationProperty extends open::legend::owl::Entity
+{
+}

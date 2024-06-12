@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Sub Data Property Of Axiom, stating that one data property expression is included in the extension of another data property expression.'} open::legend::owl::axiom::dataPropertyAxiom::SubDataPropertyOf extends open::legend::owl::axiom::dataPropertyAxiom::DataPropertyAxiom
+{
+  subDataPropertyExpression: open::legend::owl::dataProperty::DataPropertyExpression[1];
+  superDataPropertyExpression: open::legend::owl::dataProperty::DataPropertyExpression[1];
+}

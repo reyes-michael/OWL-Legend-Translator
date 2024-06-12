@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Data Range.'} open::legend::owl::dataRange::DataRange extends open::legend::owl::Entity
+{
+  arity: Integer[1];
+}

@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Annotation Property Range Axiom, stating the range of an annotation property.'} open::legend::owl::axiom::annotationAxiom::AnnotationPropertyRange extends open::legend::owl::axiom::annotationAxiom::AnnotationAxiom
+{
+  annotationProperty: open::legend::owl::annotation::AnnotationProperty[1];
+  range: open::legend::owl::IRI[1];
+}

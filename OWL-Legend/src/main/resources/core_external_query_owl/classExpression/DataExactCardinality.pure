@@ -1,0 +1,6 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents an exact cardinality restriction on a data property in OWL, indicating that there must be exactly a certain number of values for the property within the specified data range.'} open::legend::owl::classExpression::DataExactCardinality extends open::legend::owl::classExpression::ClassExpression
+{
+  dataPropertyExpression: open::legend::owl::dataProperty::DataPropertyExpression[1];
+  cardinality: Integer[1];
+  dataRange: open::legend::owl::dataRange::DataRange[0..1];
+}

@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents an OWL Datatype Restriction, which restricts the value space of a datatype by a constraining facet.'} open::legend::owl::dataRange::DatatypeRestriction extends open::legend::owl::dataRange::DataRange
+{
+  datatype: open::legend::owl::Datatype[1];
+  restrictions: open::legend::owl::FacetRestriction[1..*];
+}

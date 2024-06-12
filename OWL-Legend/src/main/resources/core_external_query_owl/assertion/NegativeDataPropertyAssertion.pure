@@ -1,0 +1,6 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Negative Data Property Assertion, stating that an individual does not have a property value.'} open::legend::owl::assertion::NegativeDataPropertyAssertion extends open::legend::owl::assertion::Assertion
+{
+  sourceIndividual: open::legend::owl::Individual[1];
+  dataPropertyExpression: open::legend::owl::dataProperty::DataPropertyExpression[1];
+  targetValue: open::legend::owl::Literal[1];
+}

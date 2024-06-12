@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'This axiom allows stating that each instance of one class expression is also an instance of another class expression, constructing a hierarchy of classes.'} open::legend::owl::axiom::classAxiom::SubClassOf extends open::legend::owl::axiom::classAxiom::ClassAxiom
+{
+  subClassExpression: open::legend::owl::classExpression::ClassExpression[1];
+  superClassExpression: open::legend::owl::classExpression::ClassExpression[1];
+}

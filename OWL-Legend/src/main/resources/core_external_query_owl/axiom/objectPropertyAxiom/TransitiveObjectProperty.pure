@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Transitive Object Property Axiom, stating that if an instance A is related to B, and B is related to C, then A must be related to C.'} open::legend::owl::axiom::objectPropertyAxiom::TransitiveObjectProperty extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+}

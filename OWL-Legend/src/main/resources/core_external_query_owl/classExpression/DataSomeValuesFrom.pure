@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the DataSomeValuesFrom class expression in OWL, which allows for existential quantification over data property expressions to at least one literal in the given data range.'} open::legend::owl::classExpression::DataSomeValuesFrom extends open::legend::owl::classExpression::ClassExpression
+{
+  dataPropertyExpressions: open::legend::owl::dataProperty::DataPropertyExpression[1..*];
+  dataRange: open::legend::owl::dataRange::DataRange[1];
+}

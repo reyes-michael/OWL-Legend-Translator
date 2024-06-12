@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Irreflexive Object Property Axiom, stating that an object property cannot relate any instance to itself.'} open::legend::owl::axiom::objectPropertyAxiom::IrreflexiveObjectProperty extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+}

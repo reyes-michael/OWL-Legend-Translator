@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the DataAllValuesFrom class expression in OWL, which allows for universal quantification over data property expressions only to literals in the given data range.'} open::legend::owl::classExpression::DataAllValuesFrom extends open::legend::owl::classExpression::ClassExpression
+{
+  dataPropertyExpressions: open::legend::owl::dataProperty::DataPropertyExpression[1..*];
+  dataRange: open::legend::owl::dataRange::DataRange[1];
+}

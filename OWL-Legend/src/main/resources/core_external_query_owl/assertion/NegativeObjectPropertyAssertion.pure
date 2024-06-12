@@ -1,0 +1,6 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Negative Object Property Assertion, stating that there is no relationship between two individuals via an object property.'} open::legend::owl::assertion::NegativeObjectPropertyAssertion extends open::legend::owl::assertion::Assertion
+{
+  sourceIndividual: open::legend::owl::Individual[1];
+  targetIndividual: open::legend::owl::Individual[1];
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+}

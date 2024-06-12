@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Literal.'} open::legend::owl::Literal
+{
+  lexicalForm: String[1];
+  datatype: open::legend::owl::Datatype[1];
+}

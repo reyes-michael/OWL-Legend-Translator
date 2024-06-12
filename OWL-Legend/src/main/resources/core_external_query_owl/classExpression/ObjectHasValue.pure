@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the has value restriction in OWL.'} open::legend::owl::classExpression::ObjectHasValue extends open::legend::owl::classExpression::ClassExpression
+{
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+  individual: open::legend::owl::Individual[1];
+}

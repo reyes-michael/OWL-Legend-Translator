@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Data Property Range Axiom, used to restrict the literals pointed to by a property expression to be in the specified unary data range.'} open::legend::owl::axiom::dataPropertyAxiom::DataPropertyRange extends open::legend::owl::axiom::dataPropertyAxiom::DataPropertyAxiom
+{
+  dataPropertyExpression: open::legend::owl::dataProperty::DataPropertyExpression[1];
+  range: open::legend::owl::dataRange::DataRange[1];
+}

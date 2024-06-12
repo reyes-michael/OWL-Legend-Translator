@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Functional Data Property Axiom, stating that a data property expression is functional, meaning that each individual can have at most one outgoing connection of the specified data property expression.'} open::legend::owl::axiom::dataPropertyAxiom::FunctionalDataProperty extends open::legend::owl::axiom::dataPropertyAxiom::DataPropertyAxiom
+{
+  dataPropertyExpression: open::legend::owl::dataProperty::DataPropertyExpression[1];
+}

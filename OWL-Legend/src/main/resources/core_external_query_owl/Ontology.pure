@@ -1,0 +1,12 @@
+import meta::pure::metamodel::type::*;
+
+Class {open::legend::owl::Documentation.documentation = 'This represents an Ontology in OWL, which is a formal representation of a set of concepts within a domain and the relationships between those concepts.'} open::legend::owl::Ontology
+{
+  ontologyIRI: open::legend::owl::IRI[0..1];
+  versionIRI: open::legend::owl::IRI[0..1];
+  ontologyAnnotations: open::legend::owl::annotation::Annotation[*];
+  axioms: open::legend::owl::axiom::Axiom[*];
+  imports: open::legend::owl::Ontology[*];
+  directlyImports: open::legend::owl::Ontology[*];
+  directlyImportsDocuments: open::legend::owl::IRI[*];
+}

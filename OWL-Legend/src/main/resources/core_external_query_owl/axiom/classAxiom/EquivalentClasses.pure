@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This axiom allows stating that several class expressions are equivalent to each other.'} open::legend::owl::axiom::classAxiom::EquivalentClasses extends open::legend::owl::axiom::classAxiom::ClassAxiom
+{
+  classExpressions: open::legend::owl::classExpression::ClassExpression[2..*];
+}

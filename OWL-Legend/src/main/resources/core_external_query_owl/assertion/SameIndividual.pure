@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL SameIndividual Assertion, which states that all listed individuals are equal to each other.'} open::legend::owl::assertion::SameIndividual extends open::legend::owl::assertion::Assertion
+{
+  individuals: open::legend::owl::Individual[2..*];
+}

@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents OWL Inverse Object Properties Axiom, stating that two object property expressions are inverses of each other.'} open::legend::owl::axiom::objectPropertyAxiom::InverseObjectProperties extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  objectPropertyExpression1: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+  objectPropertyExpression2: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+}

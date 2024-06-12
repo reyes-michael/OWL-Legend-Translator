@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents an OWL Data Complement Of, which defines a data range that is the complement of another data range.'} open::legend::owl::dataRange::DataComplementOf extends open::legend::owl::dataRange::DataRange
+{
+  dataRange: open::legend::owl::dataRange::DataRange[1];
+}

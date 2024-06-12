@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents OWL Equivalent Object Properties Axiom, stating that multiple object property expressions are equivalent.'} open::legend::owl::axiom::objectPropertyAxiom::EquivalentObjectProperties extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  objectPropertyExpressions: open::legend::owl::objectProperty::ObjectPropertyExpression[2..*];
+}

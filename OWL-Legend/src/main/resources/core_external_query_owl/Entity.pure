@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Entity.'} open::legend::owl::Entity
+{
+  entityIRI: open::legend::owl::IRI[1];
+}

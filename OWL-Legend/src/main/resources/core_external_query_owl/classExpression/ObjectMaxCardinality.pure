@@ -1,0 +1,6 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the maximum cardinality restriction in OWL.'} open::legend::owl::classExpression::ObjectMaxCardinality extends open::legend::owl::classExpression::ClassExpression
+{
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+  cardinality: Integer[1];
+  classExpression: open::legend::owl::classExpression::ClassExpression[0..1];
+}

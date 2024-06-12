@@ -1,0 +1,6 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL HasKey Axiom, which specifies that a set of property expressions (object or data) can serve as a unique identifier for instances of a class.'} open::legend::owl::axiom::HasKey extends open::legend::owl::axiom::Axiom
+{
+  classExpression: open::legend::owl::classExpression::ClassExpression[1];
+  objectPropertyExpressions: open::legend::owl::objectProperty::ObjectPropertyExpression[*];
+  dataPropertyExpressions: open::legend::owl::dataProperty::DataPropertyExpression[*];
+}

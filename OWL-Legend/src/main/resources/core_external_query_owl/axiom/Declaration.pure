@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Declaration, which is a type of Axiom.'} open::legend::owl::axiom::Declaration extends open::legend::owl::axiom::Axiom
+{
+  entity: open::legend::owl::Entity[1];
+}

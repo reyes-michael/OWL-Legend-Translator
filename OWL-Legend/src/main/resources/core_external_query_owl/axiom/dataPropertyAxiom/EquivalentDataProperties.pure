@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Equivalent Data Properties Axiom, stating that several data property expressions have the same extension.'} open::legend::owl::axiom::dataPropertyAxiom::EquivalentDataProperties extends open::legend::owl::axiom::dataPropertyAxiom::DataPropertyAxiom
+{
+  dataPropertyExpressions: open::legend::owl::dataProperty::DataPropertyExpression[2..*];
+}

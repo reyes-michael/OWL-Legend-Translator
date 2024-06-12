@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Reflexive Object Property Axiom, stating that an object property relates every instance to itself.'} open::legend::owl::axiom::objectPropertyAxiom::ReflexiveObjectProperty extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+}

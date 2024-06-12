@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL DifferentIndividuals Assertion, which states that all listed individuals are different from each other.'} open::legend::owl::assertion::DifferentIndividuals extends open::legend::owl::assertion::Assertion
+{
+  individuals: open::legend::owl::Individual[2..*];
+}

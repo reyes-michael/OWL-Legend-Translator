@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the some values from restriction in OWL.'} open::legend::owl::classExpression::ObjectSomeValuesFrom extends open::legend::owl::classExpression::ClassExpression
+{
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+  classExpression: open::legend::owl::classExpression::ClassExpression[1];
+}

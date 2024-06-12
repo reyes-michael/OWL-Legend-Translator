@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Anonymous Individual, analogous to blank nodes in RDF.'} open::legend::owl::AnonymousIndividual
+{
+  nodeID: String[1];
+}

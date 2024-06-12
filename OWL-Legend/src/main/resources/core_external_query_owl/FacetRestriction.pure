@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents an OWL Facet Restriction, which defines a constraining facet on a datatype.'} open::legend::owl::FacetRestriction
+{
+  restrictionValue: String[1];
+  constrainingFacet: open::legend::owl::IRI[1];
+}

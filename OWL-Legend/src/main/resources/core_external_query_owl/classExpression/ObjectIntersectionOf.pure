@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the IntersectionOf operation in OWL.'} open::legend::owl::classExpression::ObjectIntersectionOf extends open::legend::owl::classExpression::ClassExpression
+{
+  classExpressions: open::legend::owl::classExpression::ClassExpression[2..*];
+}

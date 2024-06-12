@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Symmetric Object Property Axiom, stating that if an instance A is related to B, then B is also related to A.'} open::legend::owl::axiom::objectPropertyAxiom::SymmetricObjectProperty extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+}

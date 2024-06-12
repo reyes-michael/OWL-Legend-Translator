@@ -1,0 +1,17 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Annotation Value, which can be an IRI, a Literal, or an Anonymous Individual. Only one of these associations should be non-null in a well-formed model.'} open::legend::owl::annotation::AnnotationValue
+[
+  constraintOneValueExists: ((($this.iri->isEmpty() &&
+  $this.literal->isEmpty()) &&
+  !($this.anonymousIndividual->isEmpty())) ||
+  (($this.iri->isEmpty() &&
+  !($this.literal->isEmpty())) &&
+  $this.anonymousIndividual->isEmpty())) ||
+  ((!($this.iri->isEmpty()) &&
+  $this.literal->isEmpty()) &&
+  $this.anonymousIndividual->isEmpty())
+]
+{
+  iri: open::legend::owl::IRI[0..1];
+  literal: open::legend::owl::Literal[0..1];
+  anonymousIndividual: open::legend::owl::AnonymousIndividual[0..1];
+}

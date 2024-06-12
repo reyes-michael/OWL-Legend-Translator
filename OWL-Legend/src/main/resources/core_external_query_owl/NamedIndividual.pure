@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Named Individual.'} open::legend::owl::NamedIndividual extends open::legend::owl::Entity
+{
+  datatype: open::legend::owl::Datatype[1];
+}

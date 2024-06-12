@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents OWL Object Property Domain Axiom, stating the domain of an object property expression.'} open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyDomain extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+  domain: open::legend::owl::classExpression::ClassExpression[1];
+}

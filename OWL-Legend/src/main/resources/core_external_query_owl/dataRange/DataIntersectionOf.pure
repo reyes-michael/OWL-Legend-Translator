@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents an OWL Data Intersection Of, which defines a data range that is the intersection of multiple data ranges.'} open::legend::owl::dataRange::DataIntersectionOf extends open::legend::owl::dataRange::DataRange
+{
+  dataRanges: open::legend::owl::dataRange::DataRange[2..*];
+}

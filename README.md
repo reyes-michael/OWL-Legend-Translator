@@ -1,25 +1,61 @@
-# OWL-Legend-Translator
+# OWL to Pure Translator Project
 
 ## Project Overview
-The OWL-Legend-Translator is an innovative solution designed to bridge the gap between rich semantic web data and practical data modeling and querying within the Legend framework. By leveraging the strengths of both Java and Pure, this project aims to provide a scalable, efficient, and user-friendly tool for integrating OWL ontologies into the Legend environment.
 
-## Key Features
-- **Hybrid Integration Approach:** Utilizes Java for parsing OWL files and directly generating Pure models, ensuring robust handling of large and complex ontologies.
-- **Pure Model Generation:** Facilitates advanced data modeling and querying within the Legend framework by using the generated Pure models.
-- **Automation with Docker:** Implements a fully automated workflow using Docker, streamlining the process from OWL file parsing to Pure model integration, and minimizing manual intervention.
-- **User-Friendly Interface:** Abstracts the complexity of OWL parsing and integration, providing a seamless and intuitive user experience for querying and analyzing semantic web data in Legend.
+The OWL to Pure Translator project aims to develop a robust and efficient method for translating OWL (Web Ontology Language) files into Pure code. Given the complexity and size of ontologies like the Comprehensive Disease Network Ontology (CDNO), our approach combines manual translation with automated processes using a Large Language Model (LLM). This strategy ensures accuracy, scalability, and a deep understanding of the underlying patterns in OWL ontologies.
 
-## Benefits
-- **Scalability and Efficiency:** The hybrid approach ensures that the solution can handle growing datasets and increasing complexity, making it suitable for large-scale applications.
-- **Enhanced Data Utilization:** Unlocks the potential of rich OWL files, enabling advanced research and applications in fields such as precision nutrition, healthcare, finance, and environmental studies.
-- **Support for FAIR Principles:** Ensures that data is findable, accessible, interoperable, and reusable, aligning with key data management principles.
-- **Long-Term Impact:** By addressing integration challenges and providing a robust solution, the OWL-Legend-Translator sets the foundation for future innovations and advancements in data modeling and querying.
+## Objectives
 
-## Use Cases
-- **Precision Nutrition:** Supports advanced research by integrating complex nutritional datasets, enabling personalized dietary recommendations based on rich semantic data.
-- **Healthcare Research:** Facilitates the integration and analysis of healthcare ontologies, driving insights and advancements in medical research and practice.
-- **Financial Analysis:** Enhances the ability to model and query financial data, supporting more accurate and comprehensive financial analysis and decision-making.
-- **Environmental Studies:** Enables the integration of environmental ontologies, supporting research and initiatives aimed at understanding and addressing environmental challenges.
+1. **Understand OWL Ontologies:** Manually translate key components of the CDNO ontology to identify and document patterns and structures.
+2. **Automate Translation:** Develop and fine-tune an LLM to automate the translation of OWL files to Pure code.
+3. **Validate Data:** Use Pure libraries to validate data against the generated Pure models, ensuring compliance with the defined ontology structures.
 
-## Conclusion
-The OWL-Legend-Translator project represents a significant step forward in making the potential of the semantic web actionable and impactful. By providing a scalable, efficient, and user-friendly solution for integrating OWL ontologies into the Legend framework, this project not only addresses immediate data integration challenges but also supports long-term research and innovation across various fields.
+## Approach
+
+### Phase 1: Manual Translation and Pattern Recognition
+
+1. **Load and Inspect CDNO:**
+    - Use tools like Protégé to load and explore the CDNO ontology.
+    - Identify key classes, properties, and relationships.
+
+2. **Document Key Components:**
+    - Create a detailed document outlining the structure of the CDNO ontology.
+    - List classes, properties, domains, ranges, restrictions, and annotations.
+
+3. **Manual Translation of Key Sections:**
+    - Manually translate several key sections of the CDNO ontology to Pure code.
+    - Document any patterns or recurring structures observed.
+
+### Phase 2: Data Preparation for LLM Training
+
+1. **Prepare Annotated Dataset:**
+    - Manually translate a diverse set of OWL constructs to Pure.
+    - Ensure translations are well-documented and annotated to highlight patterns and structures.
+
+2. **Expand Dataset with Automation:**
+    - Write scripts to automate the extraction of additional OWL samples.
+    - Ensure these samples cover a wide range of OWL constructs.
+
+### Phase 3: Training the LLM
+
+1. **Choose an LLM Framework:**
+    - Use a pre-trained LLM framework such as GPT-4 from OpenAI or Hugging Face’s Transformers.
+
+2. **Fine-Tune the Model:**
+    - Fine-tune the model using the annotated dataset.
+    - Validate the model’s output using a separate set of OWL files to ensure it generalizes well.
+
+3. **Develop a User Interface:**
+    - Create a simple interface to input OWL files and output Pure code.
+    - Ensure the interface allows for easy validation and feedback.
+
+### Phase 4: Integration and Testing
+
+1. **Integrate with Pure Libraries:**
+    - Use Pure libraries to validate data against the generated Pure models.
+    - Ensure data complies with the structure and constraints defined in the Pure models.
+
+2. **Iterative Testing and Improvement:**
+    - Rigorously test the model with various OWL ontologies.
+    - Incorporate feedback and expand the training dataset with more complex examples.
+

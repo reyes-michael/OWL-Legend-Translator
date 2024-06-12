@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'This class expression allows one to define a class as a disjoint union of several class expressions, thus expressing covering constraints.'} open::legend::owl::classExpression::DisjointUnion extends open::legend::owl::classExpression::ClassExpression
+{
+  class: open::legend::owl::Class[1];
+  classExpressions: open::legend::owl::classExpression::ClassExpression[2..*];
+}

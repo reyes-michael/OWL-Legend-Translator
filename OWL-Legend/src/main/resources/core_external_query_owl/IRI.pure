@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an Internationalized Resource Identifier (IRI) in OWL.'} open::legend::owl::IRI
+{
+  iriValue: String[1];
+}

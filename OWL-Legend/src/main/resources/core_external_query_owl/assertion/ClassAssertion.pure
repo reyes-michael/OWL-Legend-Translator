@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Class Assertion, which states that a particular individual is an instance of a specified class.'} open::legend::owl::assertion::ClassAssertion extends open::legend::owl::assertion::Assertion
+{
+  individual: open::legend::owl::Individual[1];
+  classExpression: open::legend::owl::classExpression::ClassExpression[1];
+}

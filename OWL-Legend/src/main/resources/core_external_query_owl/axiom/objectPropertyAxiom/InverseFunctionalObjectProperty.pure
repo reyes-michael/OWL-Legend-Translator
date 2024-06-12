@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Inverse Functional Object Property Axiom, stating that an inverse object property can have only one value for each instance.'} open::legend::owl::axiom::objectPropertyAxiom::InverseFunctionalObjectProperty extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  objectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+}

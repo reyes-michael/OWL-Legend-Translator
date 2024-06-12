@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents an OWL Data One Of, which defines a data range that consists of exactly the specified set of literals.'} open::legend::owl::dataRange::DataOneOf extends open::legend::owl::dataRange::DataRange
+{
+  literals: open::legend::owl::Literal[1..*];
+}

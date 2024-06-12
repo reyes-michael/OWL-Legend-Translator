@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Data Property Domain Axiom, used to restrict individuals connected by a property expression to be instances of the specified class expression.'} open::legend::owl::axiom::dataPropertyAxiom::DataPropertyDomain extends open::legend::owl::axiom::dataPropertyAxiom::DataPropertyAxiom
+{
+  dataPropertyExpression: open::legend::owl::dataProperty::DataPropertyExpression[1];
+  domain: open::legend::owl::classExpression::ClassExpression[1];
+}

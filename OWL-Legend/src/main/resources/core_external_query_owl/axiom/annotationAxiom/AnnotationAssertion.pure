@@ -1,0 +1,6 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Annotation Assertion, used to annotate an IRI or an anonymous individual with a given value.'} open::legend::owl::axiom::annotationAxiom::AnnotationAssertion extends open::legend::owl::axiom::annotationAxiom::AnnotationAxiom
+{
+  annotationSubject: open::legend::owl::annotation::AnnotationSubject[1];
+  annotationValue: open::legend::owl::annotation::AnnotationValue[1];
+  annotationProperty: open::legend::owl::annotation::AnnotationProperty[1];
+}

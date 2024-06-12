@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an Inverse OWL Object Property, allowing for bidirectional navigation in class expressions and axioms.'} open::legend::owl::axiom::objectPropertyAxiom::InverseObjectProperty extends open::legend::owl::objectProperty::ObjectPropertyExpression
+{
+  inverseOf: open::legend::owl::objectProperty::ObjectProperty[1];
+}

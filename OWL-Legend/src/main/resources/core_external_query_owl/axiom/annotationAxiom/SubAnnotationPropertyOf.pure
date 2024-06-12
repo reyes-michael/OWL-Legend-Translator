@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL SubAnnotationPropertyOf Axiom, stating that one annotation property is a subproperty of another.'} open::legend::owl::axiom::annotationAxiom::SubAnnotationPropertyOf extends open::legend::owl::axiom::annotationAxiom::AnnotationAxiom
+{
+  subAnnotationProperty: open::legend::owl::annotation::AnnotationProperty[1];
+  superAnnotationProperty: open::legend::owl::annotation::AnnotationProperty[1];
+}

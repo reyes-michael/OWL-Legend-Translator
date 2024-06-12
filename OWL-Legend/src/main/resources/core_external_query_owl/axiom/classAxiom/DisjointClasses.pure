@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This axiom allows stating that several class expressions are pairwise disjoint \u2014 that is, they have no instances in common.'} open::legend::owl::axiom::classAxiom::DisjointClasses extends open::legend::owl::axiom::classAxiom::ClassAxiom
+{
+  disjointClassExpressions: open::legend::owl::classExpression::ClassExpression[2..*];
+}

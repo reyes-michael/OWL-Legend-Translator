@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the OneOf operation in OWL.'} open::legend::owl::classExpression::ObjectOneOf extends open::legend::owl::classExpression::ClassExpression
+{
+  individuals: open::legend::owl::Individual[1..*];
+}

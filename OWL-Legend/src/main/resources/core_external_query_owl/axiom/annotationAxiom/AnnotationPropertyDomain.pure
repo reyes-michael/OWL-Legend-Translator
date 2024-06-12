@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Annotation Property Domain Axiom, stating the domain of an annotation property.'} open::legend::owl::axiom::annotationAxiom::AnnotationPropertyDomain extends open::legend::owl::axiom::annotationAxiom::AnnotationAxiom
+{
+  annotationProperty: open::legend::owl::annotation::AnnotationProperty[1];
+  domain: open::legend::owl::IRI[1];
+}

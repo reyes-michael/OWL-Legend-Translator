@@ -1,0 +1,6 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents an OWL Annotation, which is metadata applied to ontology elements such as classes, properties, and individuals.'} open::legend::owl::annotation::Annotation
+{
+  annotationProperty: open::legend::owl::annotation::AnnotationProperty[1];
+  annotationValue: open::legend::owl::annotation::AnnotationValue[1];
+  annotationAnnotations: open::legend::owl::annotation::Annotation[*];
+}

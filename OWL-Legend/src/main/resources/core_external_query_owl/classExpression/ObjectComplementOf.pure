@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the ComplementOf operation in OWL.'} open::legend::owl::classExpression::ObjectComplementOf extends open::legend::owl::classExpression::ClassExpression
+{
+  classExpression: open::legend::owl::classExpression::ClassExpression[1];
+}

@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents an OWL Data Union Of, which defines a data range that is the union of multiple data ranges.'} open::legend::owl::dataRange::DataUnionOf extends open::legend::owl::dataRange::DataRange
+{
+  dataRanges: open::legend::owl::dataRange::DataRange[2..*];
+}

@@ -1,0 +1,5 @@
+Class {open::legend::owl::Documentation.documentation = 'Represents OWL Sub Object Property Of Axiom, stating that one object property expression is a sub-property of another.'} open::legend::owl::axiom::objectPropertyAxiom::SubObjectPropertyOf extends open::legend::owl::axiom::objectPropertyAxiom::ObjectPropertyAxiom
+{
+  subObjectPropertyExpressions: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+  superObjectPropertyExpression: open::legend::owl::objectProperty::ObjectPropertyExpression[1];
+}

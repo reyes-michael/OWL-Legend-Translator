@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This represents the UnionOf operation in OWL.'} open::legend::owl::classExpression::ObjectUnionOf extends open::legend::owl::classExpression::ClassExpression
+{
+  classExpressions: open::legend::owl::classExpression::ClassExpression[2..*];
+}

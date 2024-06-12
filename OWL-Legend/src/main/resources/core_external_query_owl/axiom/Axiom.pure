@@ -1,0 +1,4 @@
+Class {open::legend::owl::Documentation.documentation = 'This class will serve as the superclass for all other axiom types in OWL.'} open::legend::owl::axiom::Axiom
+{
+  axiomAnnotations: open::legend::owl::annotation::Annotation[*];
+}
